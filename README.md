@@ -9,3 +9,5 @@ A simple and elegant Pomodoro timer built with HTML, CSS, and JavaScript. This p
 - Completed Pomodoro counter
 - Responsive design for seamless user experience
 
+![Image](https://github.com/user-attachments/assets/b5c9b6d9-2773-4de9-a7e6-30226be7cbb9)
+
