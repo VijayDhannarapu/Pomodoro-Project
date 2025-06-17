@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Short Break Buttons -->
+        <div class="break-btns">
+            <button id="shortBreak" onclick="shortBreak()">Short-Break</button>
+            <button id="longBreak" onclick="longBreak()">Long-Break</button>
+        </div>
+        
+        <!-- Time Show -->
+        <div class="time-block">
+            <h1 id="timeShow">25:00</h1>
+        </div>
+
+        <!-- Description Box -->
+        <div class="desc-boxs">
+            <div class="description">
+                <p id="work">Focused work starts here ☺️</p>
+            </div>
+            <div class="description -d2">
+                <p id="completed">Total Pomodoros</p>
+            </div>
+        </div>
+
+        <!-- Stat Stop Button -->
+        <div class="sss-btns">
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+    <!--Audio tags -->
+    <audio id="audio"  src="https://cdn.pixabay.com/audio/2022/03/10/audio_c07a9f33fd.mp3"></audio> <!-- It will ring from 5sec -->
+    <audio id="buzzer" src="https://cdn.pixabay.com/audio/2022/02/11/audio_7f0bf4cdc0.mp3"></audio> <!-- it will ring After completion of one pomodoro -->
+    
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
